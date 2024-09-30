@@ -24,7 +24,7 @@ app = Flask(__name__)
 
 chat_history = []  # Initialize chat history
 # last_vin=[]
-OPENAI_API_KEY= "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"
+OPENAI_API_KEY= "OPEN-AI-API-KEY"
 llm = ChatOpenAI(model="gpt-4-turbo", temperature=0.1, api_key=OPENAI_API_KEY, streaming=True, max_tokens=200)
 
 MAX_CHAT_HISTORY = 10
